@@ -10,4 +10,4 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       group-id: product-created-events-group
       properties:
-        spring.json.trusted.packages: com.example.emailnotificationmicroservice.model
+        spring.json.trusted.packages: com.kafka.ws.core
